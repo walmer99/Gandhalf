@@ -1,0 +1,46 @@
+#page{
+margin-left: 35em;
+width: 10em;
+}
+#police_color {
+color: #ff6600;
+}
+img {
+  opacity: .6;
+}
+#page:hover img {
+  opacity: 1
+}
+#page:hover #reward {
+opacity: 0;
+}
+#page:hover #gandalf {
+ position: absolute;
+ color: white;
+ margin-left: 5em;
+ top: 16em;
+ font-size: 2em; 
+}
+#reward{ 
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-radius: 15px;
+  font-family: arial ;
+  font-weight: lighter;
+  font-size: 3em;
+  line-height: 1.4;
+  width: 10em;
+  position: absolute;
+  text-align: center;
+  margin-left: 0.20em;
+  top: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+#gandalf{
+  position: absolute;
+  color: white;
+  margin-left: 1.8em;
+  top: 4.8em;
+  font-size: 4em;
+}
+
